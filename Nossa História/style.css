@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --verde: #1B8D73;
+    --preto: #000000;
+    --fontInter: 'Inter', sans-serif;
+    --fontPoppins: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--verde);
+}
+
+.organizarHeader {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fontPoppins);
+    font-size: 18px;
+    align-items: center;
+}
+
+header a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btnEntrar {
+    border: 3px solid var(--branco);
+    padding: 1px 25px;
+    border-radius: 30%;
+}
+
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+}
+
+/* section {
+    height: 1500px;
+} */
+
+.conteudoInicial {
+    background-image: url(../img/img/Banner1.png);
+    height: calc(100vh - 100px);
+    color: var(--branco);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 50px;
+    margin: 50px; */
+}
+
+.conteudoBanner {
+    padding: 10px;
+    height: 500px;    
+}
+
+h2 {
+    font-family: var(--fontPoppins);
+}
+
+.banner p {
+    font-family: var(--fontInter);
+    text-align: justify;
+    font-size: 22px;
+    padding-right: 50px;
+}
+
+.imagem img {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    /* margin: 20%; */
+    /* padding-left: 50px; */
+}
+
+.missaoVisaoValores {
+    display: flex;
+    padding-top: 100px;
+    background-image: url(../img/img/Banner2.png);
+    justify-content: center;
+    background-size: cover;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 1000px;
+    /* margin: 20px;
+    position: absolute; */
+}
+
+.conteudoMissaoVisaoValores {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 800px;
+    /* background-color: brown; */
+}
+
+.conteudoMissaoVisaoValores p {
+    display: inline-block;
+    text-align: justify;
+    font-size: 24px;
+    width: 300px;
+}
+
+
+.missao {
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgMissao {
+    padding: 50px 0;
+    /* background-color: azure; */
+}
+
+.visao {
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+/* .imgVisao {
+    padding: 50px 0;
+} */
+
+.valores {
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgValores {
+    padding: 50px 0;
+}
+
+.missaoVisaoValores p {
+    font-family: var(--fontInter);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--verde);
+}
+
+.footer p {
+    color: var(--branco);
+}
+
+.organizarFooter {
+    vertical-align: auto;
+}
